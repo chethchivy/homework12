@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg py-0">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="#">Donate Tutorial</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="donate mt-5 px-4">
+            <h2 class="fw-bold">Donate</h2>
+            <form action="#" method="POST">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="firstName" class="form-label fw-bold">First Name</label>
+                                    <input type="text" class="form-control" id="firstName">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="lastName" class="form-label fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="country" class="form-label fw-bold">Country</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Australia</option>
+                                    <option value="1">Cambodia</option>
+                                    <option value="2">China</option>
+                                    <option value="3">Korea</option>
+                                    <option value="4">Japan</option>
+                                    <option value="5">English</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="address" class="form-label fw-bold">Address</label>
+                                <input type="text" class="form-control" id="address">
+                                <input type="text" class="form-control mt-3" id="address">
+                                <input type="text" class="form-control mt-3" id="address">
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="mb-3">
+                                        <label for="city" class="form-label fw-bold">City</label>
+                                        <input type="text" class="form-control" id="city">
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="mb-3">
+                                        <label for="postalCode" class="form-label fw-bold">Postal Code</label>
+                                        <input type="number" class="form-control" id="postalCode">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="Email" class="form-label fw-bold">Email</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label fw-bold">Phone</label>
+                                        <input type="number" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Send email updates
+                                </label>
+                            </div>
+                            <div class="form-label">
+                                Contributions are <em>not</em> tax deductible
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="amount" class="form-label fw-bold">Amount</label>
+                        <div class="mb-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label fw-bold" for="inlineRadio1">$25</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label fw-bold" for="inlineRadio2">$50</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label fw-bold" for="inlineRadio3">$100</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label fw-bold" for="inlineRadio3">$250</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label fw-bold" for="inlineRadio3">$1000</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label fw-bold" for="inlineRadio3">$2500</label>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-5">
+                                <label for="other" class="form-label fw-bold">Other $</label>
+                                <input type="number" class="form-control" id="other" placeholder="0.00">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-4">
+                                <label for="card" class="form-label fw-bold">Credit card number</label>
+                                <input type="number" class="form-control" id="card">
+                                <div class="mt-2">
+                                    <button type="button" class="credit">
+                                        <img src="img/mastercard_PNG23.png" alt="">
+                                    </button>
+                                    <button type="button" class="credit">
+                                        <img src="img/ABA_Visa_Classic_Credit.png" alt="">
+                                    </button>
+                                    <button type="button" class="credit">
+                                        <img src="img/mastercard.png" alt="">
+                                    </button>
+                                    <button type="button" class="credit">
+                                        <img src="img/UBL-Visa-Infinite-Debit-Card.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="mb-4">
+                                        <label for="expires" class="form-label fw-bold">Expires</label>
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>2016</option>
+                                                    <option value="1">2018</option>
+                                                    <option value="2">2019</option>
+                                                    <option value="3">2020</option>
+                                                    <option value="4">2022</option>
+                                                    <option value="5">2023</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-7">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>7 - July</option>
+                                                    <option value="1">29 - May</option>
+                                                    <option value="2">12 - November</option>
+                                                    <option value="3">2 - March</option>
+                                                    <option value="4">20 - September</option>
+                                                    <option value="5">2 - October</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 ms-auto">
+                                    <div class="mb-4">
+                                        <label for="security" class="form-label fw-bold">Security code (on back)</label>
+                                        <input type="number" class="form-control" id="security">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="publish">
+                                <label class="form-check-label" for="publish">
+                                    Don't publish my donation on the website.
+                                </label>
+                            </div>
+                        </div>
+                        <input type="submit" name="submit" id="submitButton" class="btn btn-primary" value="Process Donation">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

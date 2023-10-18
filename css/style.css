@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #404143;
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+    color: #848b8f;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    padding: 15px;
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: white;
+    background-color: black;
+}
+.form-control,
+.form-select,
+.form-check-input{
+    border: 1px solid gray !important;
+}
+.credit{
+    width: 60px !important;
+    height: 35px !important;
+    padding: 0 !important;
+    border: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
